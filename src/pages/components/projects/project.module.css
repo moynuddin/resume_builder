@@ -1,0 +1,44 @@
+.projectWrapper {
+  margin-top: 30px;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formControl {
+  width: 190px;
+  height: 30px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: rgb(239, 242, 249);
+  border: none;
+  outline: 0;
+}
+
+.area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.area > * {
+  border: none;
+  background-color: rgb(239, 242, 249);
+  padding: 30px;
+  outline: 0;
+  resize: none;
+}
+
+.btn {
+  padding-top: 30px;
+}
